@@ -1,0 +1,13 @@
+// INTRO SECTION
+.intro {
+  
+  &-content {
+    background-color: $color-white;
+    font-weight: 500;
+    color: $color-dark;
+  }
+
+  &-text {
+    margin-bottom: 1rem;
+  }
+}

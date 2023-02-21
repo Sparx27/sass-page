@@ -1,0 +1,11 @@
+// FOOTER
+.footer {
+  @include center-flex(column);
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: $color-dark;
+
+   p {
+    color: $color-white;
+   }
+}

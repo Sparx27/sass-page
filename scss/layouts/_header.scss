@@ -1,0 +1,30 @@
+// HEADER
+.header-content {
+  position: relative;
+  width: 100%;
+  margin-top: 2rem;
+
+  nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    ul {
+      @include center-flex(row);
+      height: 4rem;
+      background-color: rgba($color-secondary, .3);
+
+      li a {
+        margin: 0 1rem;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: $color-white;
+      }
+      li a:hover {
+        color: $color-secondary;
+      }
+    }
+  }
+}

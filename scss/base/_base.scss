@@ -1,0 +1,37 @@
+// GLOBAL
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-stack;
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  background-color: $color-primary;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: $color-dark;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
